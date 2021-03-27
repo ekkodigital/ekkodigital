@@ -10,7 +10,7 @@ $nome = $_POST['name'];
 $email = $_POST['email'];
 $telefone = $_POST['telephone']; 
 $assunto = $_POST['subject']; 
-$mensagem = $_POST['mensagem'];
+$mensagem = $_POST['message'];
 //====================================================
 
 //REMETENTE --> ESTE EMAIL TEM QUE SER VALIDO DO DOMINIO
