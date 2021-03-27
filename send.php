@@ -6,9 +6,10 @@ $data = [
 
 //Variaveis de POST, Alterar somente se necessário 
 //====================================================
-$nome = $_POST['nome'];
+$nome = $_POST['name'];
 $email = $_POST['email'];
-$assunto = $_POST['assunto']; 
+$telefone = $_POST['telephone']; 
+$assunto = $_POST['subject']; 
 $mensagem = $_POST['mensagem'];
 //====================================================
 
@@ -28,6 +29,7 @@ $email_assunto = $assunto; // Este será o assunto da mensagem
 //====================================================
 $email_conteudo = "Nome = $nome \n"; 
 $email_conteudo .= "Email = $email \n";
+$email_conteudo .= "Telefone = $telefone \n";
 $email_conteudo .= "Assunto = $assunto \n"; 
 $email_conteudo .= "Mensagem = $mensagem \n"; 
 //====================================================
