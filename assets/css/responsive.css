@@ -107,6 +107,7 @@
 		padding: 0 5px;
 	}
 	.hero-area-social {
+		display: none;
 		padding: 0 50px;
 		top: 550px;
 	}
@@ -297,6 +298,7 @@
 		margin: 0 auto;
 		text-align: center;
 		top: 370px;
+		display: none;
 	}
 	.hero-content h1 {
 		font-size: 30px;
