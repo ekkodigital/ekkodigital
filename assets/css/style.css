@@ -206,8 +206,8 @@ h1, h2, h3, h4, h5, h6 {
 /* Get Startet Button */
 .get-started-btn {
   margin-left: 25px;
-  background: #fff;
-  color: #5f687b;
+  background: #2ba798;
+  color: #fff;
   border-radius: 4px;
   padding: 8px 25px;
   white-space: nowrap;
@@ -648,9 +648,6 @@ section {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 24px;
-}
-
-.services .icon-box h4 a {
   color: #5f687b;
   transition: ease-in-out 0.3s;
 }
